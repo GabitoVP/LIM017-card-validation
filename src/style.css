@@ -1,0 +1,84 @@
+/*---GENERALES-----*/
+*{
+   box-sizing:border-box ; 
+}
+body {
+    margin: 0;
+    background: rgb(185, 229, 235);
+}
+
+.container {
+    /* border: 3px solid red; */
+    max-width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/*---FORMULARIO-----*/
+
+.form{
+    /* border: 3px solid rgb(76, 0, 255); */
+    border-top: 2px solid black;
+    max-width: 400px;
+    height: 500px;
+    margin: auto;
+    padding: 30px 20px;
+    margin-top: 10px;
+    background: rgb(252, 253, 253);
+
+}
+
+.titulo{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: "Comic Sans MS";
+}
+
+img{
+    width: 280px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 0px rgb(180, 176, 176);
+}
+
+.form-input{ 
+    margin-bottom: 10px;
+    /* border: 3px solid rgb(255, 0, 34); */
+} 
+
+.form-input input{  
+    display: block; 
+    margin-top: 10px;  
+    width: 170px; 
+    height: 30px;
+    /* border: none; */
+    outline: none; 
+} 
+
+.form-input label{
+    font-family: "Arial";
+    font-size: 13px;
+    color: rgb(90, 88, 88);
+}
+
+/* .form-input input:focus { */
+    /* background: red;  */
+/* }  */
+
+.form-submit input{
+    background: black;
+    color: white;
+    padding: 10px 25px;
+    font-size: 15px;
+    margin: auto;
+    display: block;
+}
+
+.form-submit input:hover {
+    background: rgb(44, 43, 43);
+    transition: 0.5s;
+}
