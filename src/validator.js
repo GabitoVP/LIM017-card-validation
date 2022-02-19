@@ -38,9 +38,27 @@ const validator = {
     }
     return hideNum.join("");
   
+  },
+  getIssuer: function(creditCardNumber){
+    let array =Array.from(creditCardNumber);
+    let message="Número de dígitos inválido";
+    if(array[0]==4){
+      if (creditCardNumber.match(/^4[0-9]{12}([0-9]{3})?$/)){
+        message= "Visa";
+      }
+    }
+    else if(array[0]==5){
+      if (creditCardNumber.match(/^5[1-5][0-9]{14}$/)){
+        message= "Mastercard";
+      }
+    }
+    else if(array[0]==3){
+      if(creditCardNumber.match(/^3[47][0-9]{13}$/)){
+        message= "American Express"
+      }
+    }
+    return message;
   }
-
-  
 };
 validator.isValid(56)
 export default validator;

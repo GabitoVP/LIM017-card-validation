@@ -1,26 +1,199 @@
-/*---GENERALES-----*/
+/*---GENERALES---*/
 *{
-   box-sizing:border-box ; 
+    margin:0;
+    padding: 0;
+    box-sizing:border-box ; 
+ }
+
+ /* PAGINA PRINCIPAL */
+ /* HEADER */
+
+
+.logo{
+    background: url(images/logo1.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+   
 }
-body {
-    margin: 0;
-    background: rgb(185, 229, 235);
+.header-rigth{
+    background: rgba(202, 201, 201);
+    height: 100px;
+    width: 100%;
+    
 }
 
-.container {
-    /* border: 3px solid red; */
-    max-width: 90%;
-    margin: auto;
+.container-page{
+    display: flex;
+    background: rgb(202, 201, 201);
+}
+
+
+/* MENUS */
+nav{
+	width: 100%;
+	height: 50px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 0px;
+	background: #FE2E2E;
+}
+
+nav ul{
+	list-style: none;
+    float: right;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+	list-style: none;
+	padding: 3px 20px 0px 50px;
+	
+}
+
+.menu > li > a{
+	display: block;
+	border: 0px solid #ccc;
+	padding: 3px 0px;
+	color: #000000; 
+	font: menu;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #FFFFFF;
+	transition: all .3s;
+}
+
+/* BANNER */
+
+#slide{
+    background: url(images/1.png);
+    width: 100%;
+	height: 400px;
+    margin-top: 50px;
+}
+
+/* SUBTITULOS */
+.subtitle{
+	width: 95%;
+	height: 80px;
+	float: left; 
+	font-family: sans-serif;
     margin-top: 20px;
+	background: #FE2E2E;
+	margin-bottom: 50px;
+	font-size: 25px;
+ }
+
+ .subtitle p{
+    color: white;
+    margin-top: 20px;
+
+ }
+
+ /* SECCION DE PRODUCTOS */
+ .sale{
+	width: 1100px;
+	height: auto;
+	border: 0px solid;
+    margin: auto;
 }
 
-/*---FORMULARIO-----*/
+.product1 img{
+	width: 200px;
+	height: 330px;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product2 img{
+	margin-left: 15px;
+	margin-right: 6px;
+}
+
+footer{
+	margin-top: 900px;
+    width: 100%;
+    height: 100px;
+    background: #FE2E2E;
+}
+
+footer p{
+	width: 100%;
+    color:white;
+    text-align: center;
+}
+
+footer p a{
+    color: white;
+    font-weight: bold;
+}
+
+.end footer{
+    margin-top: 0;
+    width: 100%;
+    height: 100px;
+    background: #FE2E2E;
+}
+
+
+/* VALIDADOR DE TARJETA */
+.image-section{
+    background: url(images/fondo2.png);
+    background-size: cover;
+    background-attachment: fixed;/*Para darle movimiento de animación a la imagen*/
+}
+
+.left{
+    /* border: 3px solid red; */
+    height: 100vh;
+    width: 40%;
+}
+
+.rigth{
+    /* border: 3px solid rgb(21, 31, 168); */
+    width: 50%;
+    height: 100vh;/*ocupa toda el alto de la pantalla*/
+     max-width: 90%;
+     margin: auto;
+}
+
+#splitScreen{
+    margin-top: 50px;
+    display: flex;/*poner el div al lado del otro*/
+    background-size: 100%;
+}
+
+/*---TABLA-----*/
+table, th,td {
+    background-color: rgb(253, 250, 250);
+    border: 2px solid rgb(5, 49, 247);
+    border-collapse: collapse;
+    margin: auto;
+    max-width: 350px;
+    margin-top: 20px;  
+}
+
+th,td{
+    padding: 10px;
+    text-align: center;
+    font-family: "Arial";
+}
+
+
+/*---DIV(FORMULARIO)-----*/
 
 .form{
-    /* border: 3px solid rgb(76, 0, 255); */
-    border-top: 2px solid black;
-    max-width: 400px;
-    height: 500px;
+    /* border: 3px solid rgb(76, 0, 255);  */
+    border-top: 3px solid rgb(252, 6, 6);
+    max-width: 380px;
+    height: 570px;
     margin: auto;
     padding: 30px 20px;
     margin-top: 10px;
@@ -28,14 +201,27 @@ body {
 
 }
 
-.titulo{
+.title{
     text-align: center;
-    margin: 0;
-    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-bottom: 30px;
     font-family: "Comic Sans MS";
+    color: white;
+    font-size: 30px;
 }
 
-img{
+.text{
+    color: white;
+    font-size: 19px;
+    line-height: 30px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    font-family: "Arial";
+
+}
+
+.image-card{
     width: 280px;
     height: auto;
     margin: auto;
@@ -46,30 +232,37 @@ img{
 }
 
 .form-input{ 
-    margin-bottom: 10px;
-    /* border: 3px solid rgb(255, 0, 34); */
+    /* border: 3px solid pink; */
+    margin-bottom: 10px;/*margen de 10px en cada input(caja de texto) */
 } 
 
 .form-input input{  
-    display: block; 
+    display: block;/*propiedad para que el input se haga un bloque y pueda bajar abajo*/  
     margin-top: 10px;  
     width: 170px; 
     height: 30px;
+    border-radius: 3px;
     /* border: none; */
-    outline: none; 
+    outline: none;/*marco de la caja*/ 
 } 
 
 .form-input label{
     font-family: "Arial";
     font-size: 13px;
+    font-weight: bold;/*negrita*/
     color: rgb(90, 88, 88);
 }
 
-/* .form-input input:focus { */
-    /* background: red;  */
-/* }  */
+#validateCreditCardDigit{
+    color: red;
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: bold;/*negrita*/
+    letter-spacing: 1px;/*dar espacio a la letra*/
 
-.form-submit input{
+}
+
+.form-button input{
     background: black;
     color: white;
     padding: 10px 25px;
@@ -78,7 +271,43 @@ img{
     display: block;
 }
 
-.form-submit input:hover {
+.form-button input:hover {
     background: rgb(44, 43, 43);
     transition: 0.5s;
 }
+ 
+.splitMessage{
+    display: flex;
+    align-items: baseline;
+    height: 40px;
+
+}
+
+.labelMessage{
+    /* border: 3px solid blue; */
+    width: 100%;
+    font-family: "Arial";
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+}
+
+#Message{
+    /* border: 3px solid rgb(24, 211, 24); */
+    margin: auto;
+    font-family: "Arial";
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#Message2{
+    /* border: 3px solid rgb(24, 211, 24); */
+    margin: auto;
+    font-family: "Arial";
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+    color:blue;
+}
+

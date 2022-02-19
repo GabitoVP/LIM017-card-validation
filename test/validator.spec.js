@@ -41,4 +41,23 @@ describe('validator', () => {
       expect(validator.maskify('helloworld')).toBe('######orld');
     });
   });
+
+  describe('validator.getIssuer', () => {
+    it('debería ser una función', () => {
+      expect(typeof validator.getIssuer).toBe('function');
+    });
+
+    it('Debería retornar "Visa" para "4556364607935616"', () => {
+      expect(validator.getIssuer('4556364607935616')).toBe('Visa');
+    });
+
+    it('Debería retornar "Mastercard" para "5555555555554444"', () => {
+      expect(validator.getIssuer('5555555555554444')).toBe('Mastercard');
+    });
+
+    it('Debería retornar "American Express" para "371449635398431"', () => {
+      expect(validator.getIssuer('341449635398431')).toBe('American Express');
+    });
+  });
+
 });
