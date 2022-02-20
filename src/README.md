@@ -1,5 +1,5 @@
-## TITULO
-Desarrollo de una página web para los usuarios de la "Ferretería Smith"
+## TITULO DEL PROYECTO
+Desarrollo de una página web para la "Ferretería Smith"
 
 ## DEFINICIÓN DEL PROBLEMA
 - Disminución de las ventas por motivos de la pandemia
@@ -41,12 +41,12 @@ Esta página esta desarrollado por un lenguaje de programación en javascript, H
   ### PROTOTIPO FINAL
   En este [prototipo final](https://www.figma.com/file/FKQ58VEqJ90JipE3iHt8Uv/Untitled?node-id=0%3A1) se encuentra las dos interfaces:
 
-  Página principal:
+  * Página principal:
 
   [![primera-p-g.png](https://i.postimg.cc/brQst5NS/primera-p-g.png)](https://postimg.cc/7JZHvmzq)
 
-  Página donde se valida la tarjeta:
-  
+  * Página donde se valida la tarjeta:
+
   [![segunda-p-g.png](https://i.postimg.cc/vHs1sG3r/segunda-p-g.png)](https://postimg.cc/s1TfPCFx)
 
 
@@ -72,12 +72,42 @@ Esta página esta desarrollado por un lenguaje de programación en javascript, H
    - Desarrolar el algoritmo para la franquicia de las tarjetas
    - Usar expreciones regulares
    - Implentar validator.getIssuer
-   - Completar el README
+   - Implementar validator.getIssuer en el archivo validator.spec.js para que valide las franquicias de los tipos de  tarjetas
+   - Completar el README.
 
   ### Maquetación y diseño
    - Crear la estructura de mi página con HTML5
    - Implementar de CSS 
    - Pedir feedback a un coach sobre el diseño e interfaz de la página
+
+## CHECKLIST
+
+Esta sección está para ayudarte a llevar un control de lo que vas completando.
+
+### Parte Obligatoria
+
+* [x] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [x] `README.md` explica claramente quiénes son los usuarios y su relación con
+  el producto.
+* [x] `README.md` explica claramente cómo el producto soluciona los
+  problemas/necesidades de los usuarios.
+* [x] `README.md` (o otro archivo) contiene tu plan de acción - Objetivos que prioritizaste este proyecto.
+* [x] Usa VanillaJS.
+* [x] No utiliza `this`.
+* [x] Implementa `validator.isValid`.
+* [x] Implementa `validator.maskify`.
+* [x] Pasa linter con configuración provista.
+* [x] Pasa pruebas unitarias.
+* [x] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+  mínimo del 50% de _branches_.
+* [x] Interfaz permite escribir un número para ser validado.
+* [x] Interfaz muestra el resultado de la validación correctamente.
+* [x] Interfaz oculta todos los números escritos excepto los 4 últimos
+
+### Parte Opcional: "Hacker edition"
+
+* [x] Implementa `validator.getIssuer`.
+* [x] Interfaz muestra la franquicia de la tarjeta
 
 
 
