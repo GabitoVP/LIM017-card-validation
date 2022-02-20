@@ -25,12 +25,13 @@ Esta página esta desarrollado por un lenguaje de programación en javascript, H
 - Los clientes
 
 ## DISEÑO DEL PROTOTIPO
-  * Boceto en dibujo
+  * Boceto en [dibujo](https://drive.google.com/drive/folders/1cFwLdZ9CpQwSU3dnZLgQ1y9rO6OCe2mI?usp=sharing)
   En primer lugar fue diseñado de una manera simple para que el usuario pueda ingresar el número de tarjeta y que esta solo se pueda validar en una sola interfaz. 
-  [Dibujo a lapíz y papel](https://drive.google.com/drive/folders/1cFwLdZ9CpQwSU3dnZLgQ1y9rO6OCe2mI?usp=sharing)
+  
   [![protipo-l-piz-y-papel.jpg](https://i.postimg.cc/DzbytDkJ/protipo-l-piz-y-papel.jpg)](https://postimg.cc/Y4MHFdSM)
 
   * Primer boceto en [figma](https://www.figma.com/file/HqJou5rSr0jKhGIVxh0bPA/Untitled?node-id=0%3A1)
+
   [![mi-primer-prototipo.png](https://i.postimg.cc/63MZQgqW/mi-primer-prototipo.png)](https://postimg.cc/phnrG0K4)
 
 
@@ -39,10 +40,15 @@ Esta página esta desarrollado por un lenguaje de programación en javascript, H
 
   ### PROTOTIPO FINAL
   En este [prototipo final](https://www.figma.com/file/FKQ58VEqJ90JipE3iHt8Uv/Untitled?node-id=0%3A1) se encuentra las dos interfaces:
-   * Página principal:
-     [![primera-p-g.png](https://i.postimg.cc/brQst5NS/primera-p-g.png)](https://postimg.cc/7JZHvmzq)
-   * Página donde se valida la tarjeta:
-     [![segunda-p-g.png](https://i.postimg.cc/vHs1sG3r/segunda-p-g.png)](https://postimg.cc/s1TfPCFx)
+
+  Página principal:
+
+  [![primera-p-g.png](https://i.postimg.cc/brQst5NS/primera-p-g.png)](https://postimg.cc/7JZHvmzq)
+
+  Página donde se valida la tarjeta:
+  
+  [![segunda-p-g.png](https://i.postimg.cc/vHs1sG3r/segunda-p-g.png)](https://postimg.cc/s1TfPCFx)
+
 
 ## PLAN DE ACCIÓN
   ### Instalación
