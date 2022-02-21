@@ -64,7 +64,7 @@ Esta página esta desarrollado por un lenguaje de programación en javascript, H
    - Implementar validator.isValid
    - Diseñar interfaz 
    - Usar DOM
-   - Usar eventos como el keypress 
+   - Usar eventos como el click 
    - Pruebas unitarias
    - Funcionabilidad del proyecto
    - Dessarrolar el algoritmo para la máscara de la tarjeta

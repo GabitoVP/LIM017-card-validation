@@ -2,7 +2,7 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing:border-box ; 
+    box-sizing:border-box ;/*-para dar un tamaño exacto a la caja(medir los elementos)-*/
  }
 
  /* PAGINA PRINCIPAL */
@@ -11,7 +11,7 @@
 
 .logo{
     background: url(images/logo1.png);
-    background-size: cover;
+    background-size: cover;/*ocupe todo la imagen en esta seccion */
     width: 100px;
     height: 100px;
    
@@ -91,7 +91,6 @@ nav ul{
  .subtitle p{
     color: white;
     margin-top: 20px;
-
  }
 
  /* SECCION DE PRODUCTOS */
@@ -189,7 +188,7 @@ th,td{
 
 /*---DIV(FORMULARIO)-----*/
 
-.form{
+form{
     /* border: 3px solid rgb(76, 0, 255);  */
     border-top: 3px solid rgb(252, 6, 6);
     max-width: 380px;
