@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="container-page">
+        <a href="index.html"><div class="logo"></div></a><!--Etiqueta de hipervinculo-->
+        <div class="header-rigth">
+        </div>   
+      </section>
+      <nav><!--Etiqueta de navegación-->
+          <ul class="menu"><!--listas no ordenadas-->
+              <li><a href="index.html"><b>INICIO</b></a></li><!--listas-->
+              <li><a href=""><b>NOSOTROS</b></a></li>
+              <li><a href=""><b>PRODUCTOS</b></a></li>
+              <li><a href=""><b>CONTACTO</b></a></li>
+          </ul>
+      </nav>
+  </header>
+<section class="image-section">
+    <section id="splitScreen">
+      <div class="left">
+        <h1 class="title">Validar tarjeta de crédito</h1>
+        <p class="text">Bienvenido(a), en esta sección usted debe ingresar los números de la tarjeta de crédito o débito, de 
+          de 10 a 16 dígitos. Dependiendo del tipo de tarjeta se muestra la siguiente lista como ejemplos de 
+          tarjeta de crédito.</p>
+        <table>
+          <tr><!--Filas-->
+            <th>Tipo de tarjeta</th><!--Encabezados-->
+            <th>Número de tarjeta</th>
+            <th>Dígitos</th>
+          </tr>
+          <tr>
+            <td>American Express</td><!--Columnas-->
+            <td>371449635398431</td>
+            <td>15</td>
+          </tr>
+          <tr>
+            <td>MasterCard</td>
+            <td>5555555555554444</td>
+            <td>16</td>
+          </tr>
+          <tr>
+            <td>Visa</td>
+            <td>4111111111111111</td>
+            <td>13 o 16</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="rigth">
+        <form>
+          <div>
+            <img class="image-card" src="images/credito.png">
+          </div>
+          <div class="form-input">
+            <label for="number">Ingresar número de tarjeta</label><!--defina la etiqueta para un elemento input-->
+            <input id="number" type="number" placeholder="Número de tarjeta"/>
+          </div>
+          <div>
+            <p id="validateCreditCardDigit"></p><!--para reemplazar con innerhtlm-->
+          </div>    
+          <div class="form-input" >
+            <label for="number2">Encriptación de tarjeta</label>
+            <input id="number2" type="text" disabled />
+          </div>
+          <div class="form-button">
+            <input id="btn" type="button" value="Aceptar"/>
+          </div><br>
+          <section class="splitMessage">
+            <div>  
+              <label class="labelMessage">Validación:</label>
+            </div>
+            <div>
+              <p id="Message"></p>
+            </div>
+          </section>
+          <section class="splitMessage">
+            <div>  
+              <label class="labelMessage">Tipo de tarjeta:</label>
+            </div>
+            <div>
+              <p id="Message2"></p>
+            </div>
+          </section>
+        </form>
+      </div>
+    </section>
+  </section>
+  <div class="end">
+    <footer>
+      <p>
+          (c) Todos los derechos reservados - Ferreteria Smith <br>
+          Diseñado por <a href="lucerovp@gmail.com">Gabito</a>
+      </p>
+  </footer>
+  </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
