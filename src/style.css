@@ -2,7 +2,7 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing:border-box ;/*-para dar un tamaño exacto a la caja(medir los elementos)-*/
+    box-sizing:border-box ;
  }
 
  /* PAGINA PRINCIPAL */
@@ -11,7 +11,7 @@
 
 .logo{
     background: url(images/logo1.png);
-    background-size: cover;/*ocupe todo la imagen en esta seccion */
+    background-size: cover;
     width: 100px;
     height: 100px;
    
@@ -146,26 +146,24 @@ footer p a{
 .image-section{
     background: url(images/fondo2.png);
     background-size: cover;
-    background-attachment: fixed;/*Para darle movimiento de animación a la imagen*/
+    background-attachment: fixed;
 }
 
 .left{
-    /* border: 3px solid red; */
     height: 100vh;
     width: 40%;
 }
 
 .rigth{
-    /* border: 3px solid rgb(21, 31, 168); */
     width: 50%;
-    height: 100vh;/*ocupa toda el alto de la pantalla*/
+    height: 100vh;
      max-width: 90%;
      margin: auto;
 }
 
 #splitScreen{
     margin-top: 50px;
-    display: flex;/*poner el div al lado del otro*/
+    display: flex;
     background-size: 100%;
 }
 
@@ -189,7 +187,6 @@ th,td{
 /*---DIV(FORMULARIO)-----*/
 
 form{
-    /* border: 3px solid rgb(76, 0, 255);  */
     border-top: 3px solid rgb(252, 6, 6);
     max-width: 380px;
     height: 570px;
@@ -231,24 +228,22 @@ form{
 }
 
 .form-input{ 
-    /* border: 3px solid pink; */
-    margin-bottom: 10px;/*margen de 10px en cada input(caja de texto) */
+    margin-bottom: 10px;
 } 
 
 .form-input input{  
-    display: block;/*propiedad para que el input se haga un bloque y pueda bajar abajo*/  
+    display: block;  
     margin-top: 10px;  
     width: 170px; 
     height: 30px;
     border-radius: 3px;
-    /* border: none; */
-    outline: none;/*marco de la caja*/ 
+    outline: none;
 } 
 
 .form-input label{
     font-family: "Arial";
     font-size: 13px;
-    font-weight: bold;/*negrita*/
+    font-weight: bold;
     color: rgb(90, 88, 88);
 }
 
@@ -256,8 +251,8 @@ form{
     color: red;
     margin-top: 0px;
     font-size: 12px;
-    font-weight: bold;/*negrita*/
-    letter-spacing: 1px;/*dar espacio a la letra*/
+    font-weight: bold;
+    letter-spacing: 1px;
 
 }
 
@@ -283,7 +278,6 @@ form{
 }
 
 .labelMessage{
-    /* border: 3px solid blue; */
     width: 100%;
     font-family: "Arial";
     font-size: 13px;
@@ -292,7 +286,6 @@ form{
 }
 
 #Message{
-    /* border: 3px solid rgb(24, 211, 24); */
     margin: auto;
     font-family: "Arial";
     font-size: 13px;
@@ -301,7 +294,6 @@ form{
 }
 
 #Message2{
-    /* border: 3px solid rgb(24, 211, 24); */
     margin: auto;
     font-family: "Arial";
     font-size: 13px;
